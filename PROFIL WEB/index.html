@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-sasASDiw34w...KWSDdkgjdfg=" crossorigin="anonymous" />
+    <style>
+      @import url(./css/style.css);
+      @import url(./css/default.css);
+      @import url(./css/loading.css);
+    </style>
+  </head>
+  <body data-barba="wrapper">
+    
+      <div class="load-container">
+        <div class="loading-screen">
+        </div>
+      </div>
+      <main data-barba="container" data-barba-namespace="home-section">
+        <div class="menu flex-row" >
+          <li class="flex-col" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="50">
+            <button >
+              <a href="./about.html" >ABOUT</a>
+            </button>
+          </li>
+          <li class="flex-col"data-aos="fade-down" data-aos-duration="2000" data-aos-delay="50" >
+            <button >
+              <a href="./index.html">HOME</a>
+            </button>
+          </li>
+          <li class="flex-col" >
+            <button data-aos="fade-down" data-aos-duration="3000" data-aos-delay="50"> 
+              <a href="./gallery.html">GALLERY</a>
+            </button>
+          </li>
+        </div>
+      
+        <div class="foto-profil flex-row" data-aos="fade-up" data-aos-duration="2500" >
+          <img src="./images/gambar1.jpg" alt="">
+        </div>
+
+        <div class="nama flex-col" >
+          <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">
+            <h1>HARIS DWI RAHMANSYAH</h1>
+          </li>
+          <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+            <h5>birth : ** - 03 - 2006</h5>
+          </li>
+          <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800">
+            <p>(ini dibuat tanpa copas dari manapun makanya jelek, jan bully aku)</p>
+          </li>
+        </div>
+        <hr class="garis" size="3">
+        <div class="sosmed flex-row" >
+          <li data-aos="fade-right" data-aos-duration="2500" data-aos-delay="100" >
+              <i class="fab fa-youtube fa-3x " onclick="window.location.href='https://www.youtube.com/'"></i>
+          </li>
+        </a>
+          <li data-aos="fade-right" data-aos-duration="2500" data-aos-delay="400">
+            <i class="fab fa-facebook fa-3x " onclick="window.location.href='#'"></i>
+          </li>
+          <li data-aos="fade-left" data-aos-duration="2500" data-aos-delay="600">
+            <i class="fab fa-instagram fa-3x" onclick="window.location.href='https://www.instagram.com/haris.hdduser/'"></i>
+          </li>
+          <li data-aos="fade-left" data-aos-duration="2500" data-aos-delay="800">
+            <i class="fab fa-github fa-3x " onclick="window.location.href='#'"></i>
+          </li>
+        </div>
+      </main>
+        <div class="lightbox-container">
+          <span class="close">&times;</span>
+          <div class="lightbox-content">
+              <img src="" alt="" class="lightbox-image">
+              <p class="caption"></p>
+          </div>
+        </div>
+      
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</html>
